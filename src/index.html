@@ -338,7 +338,7 @@
         left: 25%;
 
         /* Change code below this line */
-        background: var(--penguin-skin,black);
+        background: var(--penguin-skin, black);
         /* Change code above this line */
 
         width: 50%;
@@ -351,7 +351,7 @@
         left: 23.5%;
 
         /* Change code below this line */
-        background: var(--penguin-skin,black);
+        background: var(--penguin-skin, black);
         /* Change code above this line */
 
         width: 53%;
@@ -395,6 +395,16 @@
 
       .penguin * {
         position: absolute;
+      }
+      :root {
+        --red-color: red;
+      }
+      .red-box {
+        background: red;
+
+        background: var(--red-color);
+        height: 200px;
+        width: 200px;
       }
     </style>
   </head>
@@ -498,5 +508,6 @@
         <div class="beak-bottom"></div>
       </div>
     </div>
+    <div class="red-box"></div>
   </body>
 </html>
